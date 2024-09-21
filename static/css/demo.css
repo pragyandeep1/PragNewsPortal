@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    margin-top: 4em;
+}
+
+ul{
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+img{
+    height: 250px;
+    width: 300px;
+    margin: 25px;
+    border: 5px solid red;
+}
+
+li{
+    text-align: center;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+button{
+    border: 2px solid red;
+    color: #fff;
+    background-color: green;
+}
+
+h1{
+    text-transform: uppercase;
+}

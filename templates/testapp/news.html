@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pragyandeep News Channel Portal</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'css/demo.css' %}">
+    </head>
+    <body>
+        <h1>{{head_msg}}</h1>
+        <ul>
+            <li>{{sub_msg1}}</li>
+            <li>{{sub_msg2}}</li>
+            <li>{{sub_msg3}}</li>
+        </ul>
+        {% if type == 'movies' %}
+            <img src="{% static 'images/movies1.jpg' %}" alt="movies">
+            <img src="{% static 'images/movies2.jpg' %}" alt="movies">
+            <img src="{% static 'images/movies3.jpg' %}" alt="movies">
+            <br><button onclick="window.history.back()">Back</button>
+        {% elif type == 'sports' %}
+            <img src="{% static 'images/sports1.jpg' %}" alt="sports">
+            <img src="{% static 'images/sports2.jpg' %}" alt="sports">
+            <img src="{% static 'images/sports3.jpg' %}" alt="sports">
+            <br><button onclick="window.history.back()">Back</button>
+        {% elif type == 'politics' %}
+            <img src="{% static 'images/politics1.jpg' %}" alt="politics">
+            <img src="{% static 'images/politics2.jpg' %}" alt="politics">
+            <img src="{% static 'images/politics3.jpg' %}" alt="politics">
+            <br><button onclick="window.history.back()">Back</button>
+        {% else %}
+            <img src="{% static 'images/empty1.jpg' %}" alt="empty">
+        {% endif %}
+    </body>
+</html>
