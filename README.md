@@ -14,6 +14,8 @@ Pragyandeep News Portal is a Django-powered web application designed to deliver 
 - **SEO Friendly**: Meta tags and proper HTML structure for search engine optimization.
 - **Pagination**: Paginated views to enhance site performance and user experience.
 
+![image](https://github.com/user-attachments/assets/3889ee3f-87a7-47d5-afc6-558773ec25b7)
+
 ## Installation
 
 ### Prerequisites
